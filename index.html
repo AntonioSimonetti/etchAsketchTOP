@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title id="title">POKE-A-SKETCH</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAExMUAAgICAAACP8A9/f3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAIkQiAAAAAAJEREQgAAAAJEREREIAAAJERERERCAAAkREREREIAAkREQiRERCACIiIkQiIiIAIzMzETMzMgACMzMzMzMgAAIzMzMzMyAAACMzMzMyAAAAAjMzMyAAAAAAIjMiAAAAAAAAIgAAAAAAAAAAAAAAD+fwAA+B8AAPAPAADgBwAAwAMAAMADAACAAQAAgAEAAIABAADAAwAAwAMAAOAHAADwDwAA+B8AAP5/AAD//wAA" rel="icon" type="image/x-icon" />
+</head>
+<body>
+    <audio id ="suono" src="./music/pokemonTheme.mp3"></audio>  </audio>
+    <h3 id="Totino">Created by Totino</h3>
+
+    <div id="textContainer"><h2></h2>
+        <img src="blackcircle.png" id="circle" class="drawing">
+        <img src="redcircle.png" id="circleRed" class="drawing">
+    </div>
+    <div id="container">
+        <div id="left">
+            
+        </div>
+     <div id="main" class="mainDiv">
+     </div>
+     <div id="right"></div>
+
+    </div>
+    <div id="bottom">
+        <img src="gameboylogo.png" id="gameBoyLogo">
+
+    </div>
+    <div id="nintendo"><h3>Nintendo</h2></div>
+    <div id="flexContainer">
+    <div id="buttonContainer">
+        <button id="button" class="color" onclick="changeColor(`black`)"><input type="color" id="inputColor"></button>
+        <button id="button" class="erasor" onclick="changeColor(`white`)">E</button>
+        <button id="button" class="random" onclick="changeColor(`random`)">R</button>
+        <button id="button" class="reset" onclick="reset()">RESET</button>
+        </div>
+        <div id="buttonContainerRight">
+            <button id="a">A</button>
+            <button id="g"><a href="https://github.com/AntonioSimonetti" target="_blank">G</a></button> 
+        </div>
+    </div>
+    <div id="containerFooter">
+    <div id="pokemonDiv">
+    <img src ="pokemon.png" id="pokemon">
+    </div>
+    <div id="input">
+        <input type="text" placeholder="Size of the board" value="16" onchange="changeSize(this.value)" />
+        <button id="size"> Set size </button>
+    </div>
+    </div>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>

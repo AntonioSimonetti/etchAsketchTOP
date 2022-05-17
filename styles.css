@@ -1,0 +1,293 @@
+@font-face {
+    src: url(Pretendo.ttf);
+    font-family: nintendo;
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #ffc902;
+
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: -1rem;
+
+}
+
+#left {
+    background-color: #505050;
+    padding: 2rem;
+    margin-top: -0.5rem;
+    margin-bottom: -3rem;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 100%;
+}
+
+#circle {
+    width: 10px;
+    height: 10px;
+    margin-left:41rem;
+    margin-top: 5rem;
+    position: absolute;
+}
+
+#circleRed {
+    display: none;
+    width: 10px;
+    height: 10px;
+    margin-left:41rem;
+    margin-top: 5rem;
+    position: absolute;
+}
+
+#right {
+    background-color: #505050;
+    padding: 2rem;
+    margin-top: -0.5rem;
+    margin-bottom: -3rem;
+    margin-left: 0rem;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 100%;
+}
+
+h2 {
+    background-color: #505050;
+    margin-left: 658px;
+    margin-bottom: -1.5rem;
+    width: 588px;
+    height: 60px;
+    position: relative;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+
+}
+
+#bottom {
+    background-color: #505050;
+    margin-left: 675px;
+    margin-bottom: 2rem;
+    width: 550px;
+    height: 60px;
+    position: relative;
+    border-bottom-left-radius: 27%;
+    border-bottom-right-radius: 20%;
+
+}
+
+#gameBoyLogo {
+    width: 25rem;
+    height: 5rem;
+    margin-top: -0.5rem;
+    margin-left: 5rem;
+
+}
+
+#main {
+
+    width: 500px;
+    height: 500px;
+    display: grid;
+    margin-left: -10rem;
+    margin-right: -10rem;
+}
+
+
+#nintendo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 55rem;
+    margin-top: 2.5rem;
+    width: 150px;
+    height: 30px;
+    background-color: #ffc902;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #e6b403;
+    color: #e6b403;
+    font-family: nintendo;
+}
+
+#flexContainer {
+    display: flex;
+    height: 400px;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 50rem;
+    justify-content: space-around;
+
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+}
+
+#buttonContainerRight {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+    font-weight: bolder;
+    background-color: #3653ba;
+    gap: 0rem;
+
+}
+
+#a {
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    background-color: #0fb071;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#g {
+    margin-left: 1.5rem;
+    margin-bottom: 3rem;
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    background-color: #e33019;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.color {
+    border-radius: 20%;
+    width: 7rem;
+    height: 4rem;
+    outline: none;
+    border-color: #373d88;
+    margin-left: 0rem;
+    margin-right: -0.5rem;
+    font-size: 25px;
+}
+
+#inputColor {
+    width: 3rem;
+    height: 3rem;
+    border-color: #3653ba;
+    border: none;
+    background-color: #3653ba;
+}
+
+.erasor {
+
+    border-radius: 20%;
+    width: 4rem;
+    height: 7rem;
+    outline: none;
+    border-color: #373d88;
+    margin-top: 10rem;
+    margin-right: 1rem;
+    margin-left: 0rem;
+    margin-bottom: 0.5rem;
+    font-size: 25px;
+}
+
+.random {
+    border-radius: 20%;
+    width: 4rem;
+    height: 7rem;
+    outline: none;
+    border-color: #373d88;
+    margin-top: -3.5rem;
+    margin-bottom: 6rem;
+    margin-right: -1rem;
+    margin-left: -5rem;
+    font-size: 25px;
+}
+
+.reset {
+    border-radius: 20%;
+    outline: none;
+    border-color: #373d88;
+    width: 7rem;
+    height: 4rem;
+    margin-left: 0.5rem;
+    font-size: 25px;
+}
+
+#containerFooter {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#pokemon {
+    margin-left: 51rem;
+    width: 300px;
+    height: 100px;
+}
+
+#input {
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#size {
+    background-color: #514345;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    color: blue;
+    font-weight: bold;
+    border: none;
+}
+
+input,
+select,
+textarea {
+    color: blue;
+    font-weight: bold;
+    align-items: center;
+    background-color: #514345;
+    border: none;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    outline: none;
+    width: 3.5rem;
+    border-radius: 30%;
+
+}
+
+#Totino {
+    margin-left: 0.5rem;
+    color: #e6b403;
+    font-family: nintendo;
+}
+
+#Totaino {
+    color: #e6b403;
+    
+}
