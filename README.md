@@ -1,4 +1,4 @@
-Project: Etch-a-Sketch
+**Project: Etch-a-Sketch**
 
 Simple implementation of Etch-a-sketch game from The Odin Project curriculum.
 
