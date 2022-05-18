@@ -34,6 +34,7 @@ I learned how to prevent event happening on some elements using the tagName.
 
 I should really start use a different approach before start building to prevent stupid mistake in the development, expecially with CSS.
 In addition to that, I have to start to build for mobile too, I feel that it's better to start as soon as possible.
+I have to organize better my project files with folders.
 
 **Good things to look at:**
 
